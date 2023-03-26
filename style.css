@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  padding: 5em 5em 0 5em;
+}
+.main-container {
+  display: flex;
+  /* gap: 7em; */
+  justify-content: space-between;
+}
+.intro {
+  color: white;
+  padding-top: 2em;
+}
+.intro :nth-child(3) {
+  color: orange;
+}
+button {
+  margin-top: 3em;
+  margin-bottom: 6em;
+  padding: 1em 1.5em;
+  border-radius: 10px;
+  background-color: orange;
+}
+.intro a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+.gif {
+  width: 500px;
+  height: 360px;
+  border-radius: 4rem;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.projects a {
+  color: orange;
+  text-decoration: none;
+}
+
+@media (max-width: 763px) {
+  .main-container {
+    /* display: flex;
+    flex-direction: column; */
+  }
+}

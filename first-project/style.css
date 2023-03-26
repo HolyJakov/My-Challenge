@@ -1,0 +1,49 @@
+/* .images {
+  display: none;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url(./asset/squirrel.jpeg); */
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation: slide 12s linear infinite alternate;
+}
+@keyframes slide {
+  0% {
+    background-image: url(./asset/butterfly.jpeg);
+  }
+  20% {
+    background-image: url(./asset/fish.jpeg);
+  }
+  40% {
+    background-image: url(./asset/lion.jpeg);
+  }
+  60% {
+    background-image: url(./asset/penguin.webp);
+  }
+  80% {
+    background-image: url(./asset/squirrel.jpeg);
+  }
+  100% {
+    background-image: url(./asset/turtle.jpeg);
+  }
+}
+.fa-chevron-left {
+  font-size: 2.5rem;
+}
+.fa-chevron-right {
+  font-size: 2.5rem;
+}
+.chevs {
+  display: flex;
+  height: 100vh;
+  padding: 0.5em;
+  align-items: center;
+  justify-content: space-between;
+}
