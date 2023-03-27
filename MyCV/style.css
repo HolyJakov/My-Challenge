@@ -118,18 +118,3 @@ button {
     padding-left: 30px;
   }
 }
-
-@media (max-width: 514px) {
-  .location {
-    display: none;
-  }
-  .maincontent {
-    align-items: center;
-  }
-  .content2 {
-    padding-left: unset;
-  }
-  .content1 {
-    padding-left: unset;
-  }
-}
