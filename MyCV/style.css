@@ -113,9 +113,11 @@ button {
   }
   .content2 {
     padding-left: 30px;
+    width: unset;
   }
   .content1 {
     padding-left: 30px;
+    width: unset;
   }
   .africa-agility-cert img {
     width: 200px;
