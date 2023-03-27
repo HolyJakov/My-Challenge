@@ -9,7 +9,6 @@ body {
 }
 .main-container {
   display: flex;
-  /* gap: 7em; */
   justify-content: space-between;
 }
 .intro {
@@ -55,5 +54,12 @@ button {
     width: 400px;
     height: 260px;
     border-radius: 3rem;
+  }
+}
+@media (max-width: 505px) {
+  .gif {
+    width: 310px;
+    height: 260px;
+    border-radius: 2.5rem;
   }
 }

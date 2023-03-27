@@ -123,4 +123,13 @@ button {
   .location {
     display: none;
   }
+  .maincontent {
+    align-items: center;
+  }
+  .content2 {
+    padding-left: unset;
+  }
+  .content1 {
+    padding-left: unset;
+  }
 }
