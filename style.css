@@ -56,17 +56,10 @@ button {
     border-radius: 2.5rem;
   }
 }
-/* @media (max-width: 505px) {
-  .gif {
-    width: 310px;
-    height: 260px;
-    border-radius: 2.5rem;
-  }
-} */
 @media (max-width: 417px) {
   .gif {
     width: 250px;
-    height: 250px;
+    height: 230px;
     border-radius: 2rem;
   }
 }
