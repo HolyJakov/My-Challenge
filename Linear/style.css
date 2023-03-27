@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#container {
+  height: 100vh;
+  background-image: linear-gradient(#780206, #061161);
+  position: relative;
+}
+#nav-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  align-items: center;
+  position: sticky;
+}
+.logo {
+  font-size: 1.5rem;
+  color: white;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.linear {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.fa-chevron-left {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.fa-chevron-right {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
