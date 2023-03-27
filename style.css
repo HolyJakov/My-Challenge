@@ -34,7 +34,7 @@ button {
 .gif {
   width: 500px;
   height: 360px;
-  border-radius: 4rem;
+  border-radius: 3rem;
 }
 .projects {
   display: flex;
@@ -46,9 +46,14 @@ button {
   text-decoration: none;
 }
 
-@media (max-width: 763px) {
+@media (max-width: 891px) {
   .main-container {
-    /* display: flex;
-    flex-direction: column; */
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .gif {
+    width: 400px;
+    height: 260px;
+    border-radius: 3rem;
   }
 }

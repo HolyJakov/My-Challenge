@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .myname {
   color: white;
   margin-top: 20px;
@@ -87,4 +92,35 @@ button {
 .africa-agility-cert img {
   width: 300px;
   height: 200px;
+}
+
+@media (max-width: 714px) {
+  .top {
+    flex-direction: column-reverse;
+  }
+  .cvpix-cont {
+    display: flex;
+    justify-content: center;
+  }
+  .myname {
+    text-align: center;
+  }
+  .frontend {
+    text-align: center;
+  }
+  .maincontent {
+    flex-direction: column;
+  }
+  .content2 {
+    padding-left: 30px;
+  }
+  .content1 {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 514px) {
+  .location {
+    display: none;
+  }
 }
