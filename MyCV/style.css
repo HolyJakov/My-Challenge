@@ -124,3 +124,15 @@ button {
     height: 100px;
   }
 }
+
+@media (max-width: 510px) {
+  .location {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .phonenumber {
+    display: none;
+  }
+}
